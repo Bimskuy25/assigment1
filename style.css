@@ -10,7 +10,7 @@
 
 html, body {
     height: 100%;
-    background-color: #152733;
+    background-color: #1f4956;
     overflow: hidden;
 }
 
@@ -79,7 +79,7 @@ html, body {
     color: #fff;
 }
 
-.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+.form-content input[type=text], .form-content input[type=class], .form-content input[type=email], .form-content select {
     width: 100%;
     padding: 9px 20px;
     text-align: left;
@@ -97,17 +97,17 @@ html, body {
 
 
 .btn-primary{
-    background-color: #6C757D;
+    background-color: #0088ff;
     outline: none;
     border: 0px;
-     box-shadow: none;
+    box-shadow: none;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
-    background-color: #495056;
+    background-color: #0088ff;
     outline: none !important;
     border: none !important;
-     box-shadow: none;
+    box-shadow: none;
 }
 
 .form-content textarea {
@@ -145,5 +145,5 @@ html, body {
 }
 
 .valid-feedback{
-   color: #2acc80;
+    color: #2acc80;
 }
