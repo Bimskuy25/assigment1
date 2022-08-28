@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+
 <title>greet</title>
 </head>
 <body>
@@ -9,14 +11,23 @@
   <form onsubmit="return false">
     <label>Rika Pratiwi: </label>
     <input type="text" id="input_form" value="90"/>
-    <button id="tombol_form">Tampilkan Nilai</button>
+    <button id="register" type="button" class="btn btn-primary">Register</button>
   </form>
   <script>
-    var tombol = document.getElementById("tombol_form");
-    tombol.addEventListener("click", function() {
-      var input = document.getElementById("input_form");
-      alert(input.value);
+    const register = document.querySelector('#register');
+    register.addEventListener('click', function(){
+        Swal.fire({
+            title: 'Success!',
+            text: 'You have successfully registered!',
+            icon: 'success',
+            confirmButtonText: 'Cool'
+        })
     });
-  </script>
+  </script> 
+  <script src="main.js"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+
 </body>
 </html>

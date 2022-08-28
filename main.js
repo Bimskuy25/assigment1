@@ -12,5 +12,12 @@
             form.classList.add('was-validated')
         }, false)
     });
-    alert
+    // const register = document.querySelector('#register');
+    //     register.addEventListener('click', function(){
+    //         Swal.fire({
+    //             title: 'Success!',
+    //             text: 'You have successfully registered!',
+    //             icon: 'success',
+    //         })
+    //     });
 })()
